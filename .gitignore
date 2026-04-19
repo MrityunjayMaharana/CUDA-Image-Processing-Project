@@ -1,0 +1,24 @@
+# Build outputs
+x64/
+Debug/
+Release/
+build/
+CUDA_Ima*/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.log
+*.tlog
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.slnx
+*.vcxproj.user
+
+# Temporary files
+*.tmp
+*.temp
+*.cache

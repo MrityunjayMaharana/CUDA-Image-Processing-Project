@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{9f9abbbc-1d12-4bea-b192-b43311572428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{2411ee7e-33dd-49eb-a23b-54fb8eb383c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="results">
+      <UniqueIdentifier>{7754333f-066f-4f22-a268-d065d81f5667}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+    <Text Include="CUDA_Ima.569CDF5C\x64\Debug\CUDA_Image_Processing.Build.CppClean.log" />
+    <Text Include="CUDA_Ima.569CDF5C\x64\Debug\CUDA_Image_Processing.log" />
+    <Text Include="CUDA_Ima.569CDF5C\x64\Debug\CUDA_Image_Processing.vcxproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="CUDA_Image_Processing.slnx" />
+    <None Include="x64\Debug\CUDA_Image_Processing.exe" />
+    <None Include="x64\Debug\CUDA_Image_Processing.pdb" />
+    <None Include="x64\Debug\opencv_world4120d.dll" />
+    <None Include="CUDA_Ima.569CDF5C\x64\Debug\vc145.pdb" />
+    <None Include="CUDA_Ima.569CDF5C\x64\Debug\CUDA_Image_Processing.exe.recipe" />
+    <None Include="CUDA_Ima.569CDF5C\x64\Debug\CUDA_Image_Processing.ilk" />
+    <None Include="CUDA_Ima.569CDF5C\x64\Debug\kernel.cu402512905.deps" />
+    <None Include="CUDA_Ima.569CDF5C\x64\Debug\kernels.cu.cache" />
+    <None Include="CUDA_Ima.569CDF5C\x64\Debug\kernels.cu-1752698546.deps" />
+    <None Include="CUDA_Ima.569CDF5C\x64\Debug\main.cu.cache" />
+    <None Include="CUDA_Ima.569CDF5C\x64\Debug\main.cu-999511639.deps" />
+    <None Include="CUDA_Ima.569CDF5C\x64\Debug\vc145.idb" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="temp.cpp" />
+    <ClCompile Include="src\cpu_reference.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="src\main.cu" />
+    <CudaCompile Include="src\kernels.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\kernels.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\input_images\wash-ir.tiff" />
+    <Image Include="data\input_images\2.1.01.tiff" />
+    <Image Include="data\input_images\2.1.02.tiff" />
+    <Image Include="data\input_images\2.1.03.tiff" />
+    <Image Include="data\input_images\2.1.04.tiff" />
+    <Image Include="data\input_images\2.1.05.tiff" />
+    <Image Include="data\input_images\2.1.06.tiff" />
+    <Image Include="data\input_images\2.1.07.tiff" />
+    <Image Include="data\input_images\2.1.08.tiff" />
+    <Image Include="data\input_images\2.1.09.tiff" />
+    <Image Include="data\input_images\2.1.10.tiff" />
+    <Image Include="data\input_images\2.1.11.tiff" />
+    <Image Include="data\input_images\2.1.12.tiff" />
+    <Image Include="data\input_images\2.2.01.tiff" />
+    <Image Include="data\input_images\2.2.02.tiff" />
+    <Image Include="data\input_images\2.2.03.tiff" />
+    <Image Include="data\input_images\2.2.04.tiff" />
+    <Image Include="data\input_images\2.2.05.tiff" />
+    <Image Include="data\input_images\2.2.06.tiff" />
+    <Image Include="data\input_images\2.2.07.tiff" />
+    <Image Include="data\input_images\2.2.08.tiff" />
+    <Image Include="data\input_images\2.2.09.tiff" />
+    <Image Include="data\input_images\2.2.10.tiff" />
+    <Image Include="data\input_images\2.2.11.tiff" />
+    <Image Include="data\input_images\2.2.12.tiff" />
+    <Image Include="data\input_images\2.2.13.tiff" />
+    <Image Include="data\input_images\2.2.14.tiff" />
+    <Image Include="data\input_images\2.2.15.tiff" />
+    <Image Include="data\input_images\2.2.16.tiff" />
+    <Image Include="data\input_images\2.2.17.tiff" />
+    <Image Include="data\input_images\2.2.18.tiff" />
+    <Image Include="data\input_images\2.2.19.tiff" />
+    <Image Include="data\input_images\2.2.20.tiff" />
+    <Image Include="data\input_images\2.2.21.tiff" />
+    <Image Include="data\input_images\2.2.22.tiff" />
+    <Image Include="data\input_images\2.2.23.tiff" />
+    <Image Include="data\input_images\2.2.24.tiff" />
+    <Image Include="data\input_images\3.2.25.tiff" />
+    <Image Include="data\output_images\wash-ir.tiff" />
+    <Image Include="data\output_images\2.1.01.tiff" />
+    <Image Include="data\output_images\2.1.02.tiff" />
+    <Image Include="data\output_images\2.1.03.tiff" />
+    <Image Include="data\output_images\2.1.04.tiff" />
+    <Image Include="data\output_images\2.1.05.tiff" />
+    <Image Include="data\output_images\2.1.06.tiff" />
+    <Image Include="data\output_images\2.1.07.tiff" />
+    <Image Include="data\output_images\2.1.08.tiff" />
+    <Image Include="data\output_images\2.1.09.tiff" />
+    <Image Include="data\output_images\2.1.10.tiff" />
+    <Image Include="data\output_images\2.1.11.tiff" />
+    <Image Include="data\output_images\2.1.12.tiff" />
+    <Image Include="data\output_images\2.2.01.tiff" />
+    <Image Include="data\output_images\2.2.02.tiff" />
+    <Image Include="data\output_images\2.2.03.tiff" />
+    <Image Include="data\output_images\2.2.04.tiff" />
+    <Image Include="data\output_images\2.2.05.tiff" />
+    <Image Include="data\output_images\2.2.06.tiff" />
+    <Image Include="data\output_images\2.2.07.tiff" />
+    <Image Include="data\output_images\2.2.08.tiff" />
+    <Image Include="data\output_images\2.2.09.tiff" />
+    <Image Include="data\output_images\2.2.10.tiff" />
+    <Image Include="data\output_images\2.2.11.tiff" />
+    <Image Include="data\output_images\2.2.12.tiff" />
+    <Image Include="data\output_images\2.2.13.tiff" />
+    <Image Include="data\output_images\2.2.14.tiff" />
+    <Image Include="data\output_images\2.2.15.tiff" />
+    <Image Include="data\output_images\2.2.16.tiff" />
+    <Image Include="data\output_images\2.2.17.tiff" />
+    <Image Include="data\output_images\2.2.18.tiff" />
+    <Image Include="data\output_images\2.2.19.tiff" />
+    <Image Include="data\output_images\2.2.20.tiff" />
+    <Image Include="data\output_images\2.2.21.tiff" />
+    <Image Include="data\output_images\2.2.22.tiff" />
+    <Image Include="data\output_images\2.2.23.tiff" />
+    <Image Include="data\output_images\2.2.24.tiff" />
+    <Image Include="data\output_images\3.2.25.tiff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="CUDA_Ima.569CDF5C\x64\Debug\cpu_reference.obj" />
+    <Object Include="CUDA_Ima.569CDF5C\x64\Debug\kernels.cu.obj" />
+    <Object Include="CUDA_Ima.569CDF5C\x64\Debug\main.cu.obj" />
+  </ItemGroup>
+</Project>
