@@ -11,3 +11,4 @@ The program reads all images from an input folder, converts each one from RGB to
 ### Grayscale Formula
 
 The conversion uses the human perception-based luminance formula (ITU-R BT.601 standard):
+Gray = 0.299 × Red + 0.587 × Green + 0.114 × Blue
